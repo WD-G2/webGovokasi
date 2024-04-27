@@ -13,6 +13,7 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Hero />
+      {/* Disini tambah button untuk ganti service */}
       <div className="flex flex-col h-auto justify-center items-center">
         {service === 'Talent' ? <ServiceCard service={'Talent'}/> : <ServiceCard service={'Partner'}/>}
       </div>
