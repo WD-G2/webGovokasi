@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.icon-blue{
+    fill: white;
+}
+
+.icon-bg{
+    background-color: #2978b1; /* Set background color */
+    border: none; /* Remove border */
+    padding: 8px; /* Add padding */
+    border-radius: 4px; /* Add border radius */
+    margin-right: 10px; /* Adjust margin as needed */
+}
