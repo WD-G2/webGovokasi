@@ -18,6 +18,28 @@ function App() {
       <Navbar />
       <Hero />
       {/* Disini tambah button untuk ganti service */}
+      <div className="flex justify-center items-center">
+        <button
+          onClick={() => setService("Talent")}
+          className={`${
+            service === "Talent"
+              ? "bg-[#1a1d40] text-white"
+              : "bg-white text-[#1a1d40]"
+          } p-2 m-2 rounded-md`}
+        >
+          Talent
+        </button>
+        <button
+          onClick={() => setService("Partner")}
+          className={`${
+            service === "Partner"
+              ? "bg-[#1a1d40] text-white"
+              : "bg-white text-[#1a1d40]"
+          } p-2 m-2 rounded-md`}
+        >
+          Partner
+        </button>
+      </div>
       <div
         id="services"
         className="flex flex-col h-auto justify-center items-center"
@@ -29,6 +51,7 @@ function App() {
         )}
       </div>
       <div id="blogs" className="relative pt-2 lg:pt-2 min-h-screen">
+        <h1 className="text-center text-4xl p-3 bg-[#1a1d40] text-white">Blogs</h1>
         <div
           className="bg-cover w-full flex justify-center items-center"
           style={{ "background-image": "url('/images/mybackground.jpeg')" }}
