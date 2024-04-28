@@ -4,9 +4,13 @@ import Hero from "./layouts/Hero.jsx";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
 import ServiceCard from "./layouts/ServiceCard.jsx";
-import { useState } from "react";
+import BlogCard from "./layouts/BlogCard.jsx";
+import { useState, useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+    document.title = 'Pelatihan dan Magang Gratis | GOVOKASi';
+  }, []);
   const [service, setService] = useState('Talent')
 
   return (
@@ -17,6 +21,7 @@ function App() {
       <div className="flex flex-col h-auto justify-center items-center">
         {service === 'Talent' ? <ServiceCard service={'Talent'}/> : <ServiceCard service={'Partner'}/>}
       </div>
+      <BlogCard />
       <Footer />
     </BrowserRouter>
   );
