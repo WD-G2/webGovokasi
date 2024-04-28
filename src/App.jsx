@@ -17,15 +17,14 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Hero />
-      {/* Disini tambah button untuk ganti service */}
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center mb-4">
         <button
           onClick={() => setService("Talent")}
           className={`${
             service === "Talent"
               ? "bg-[#1a1d40] text-white"
-              : "bg-white text-[#1a1d40]"
-          } p-2 m-2 rounded-md`}
+              : "bg-white text-[#1a1d40] border-[#1a1d40] border"
+          } ml-[15.5rem] p-2 rounded-r-none rounded-md w-full`}
         >
           Talent
         </button>
@@ -34,8 +33,8 @@ function App() {
           className={`${
             service === "Partner"
               ? "bg-[#1a1d40] text-white"
-              : "bg-white text-[#1a1d40]"
-          } p-2 m-2 rounded-md`}
+              : "bg-white text-[#1a1d40] border-[#1a1d40] border"
+          } p-2 rounded-md rounded-l-none w-full mr-[15.5rem]`}
         >
           Partner
         </button>
