@@ -21,11 +21,13 @@ function DeptSection() {
       <h1 className="mt-4 text-center text-4xl p-3 bg-[#1a1d40] text-white w-full">
         Departments
       </h1>
+      <section className="mx-4">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 max-w-7xl mx-auto my-10">
         {depts.map((item) => {
           return <DeptCard dept={item} />;
         })}
       </div>
+      </section>
     </>
   );
 }
