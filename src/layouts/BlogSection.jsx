@@ -4,7 +4,7 @@ import BlogCard from "../components/BlogCard";
 const BlogSection = () => {
   return (
     <div className="container mx-auto">
-      <div id="blogs" className="relative pt-2 lg:pt-2 min-h-screen">
+      <div id="blogs" className="mt-6 relative pt-2 lg:pt-2 min-h-screen">
         <h1 className="text-center text-4xl p-3 bg-[#1a1d40] text-white">
           Blogs
         </h1>
