@@ -1,9 +1,11 @@
 import collage from "../assets/collage.png";
+import InfoCard from "../components/InfoCard";
 
 const Hero = () => {
   return (
+    <>
     <div className="bg-white relative   flex items-center  n justify-center overflow-hidden z-50 ">
-      <div className="relative mx-auto h-full px-4  pb-20   md:pb-10 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8">
+      <div className="relative mx-auto h-full px-4 pb-2 md:pb-0 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8">
         <div className="flex flex-col items-center justify-between lg:flex-row py-16">
           <div className=" relative ">
             <div className="lg:max-w-xl lg:pr-5 relative z-40">
@@ -39,22 +41,17 @@ const Hero = () => {
             </div>
           </div>
           <div className="relative hidden lg:ml-32 lg:block lg:w-1/2">
-            <div className="abg-orange-400 mx-auto w-fit overflow-hidden ">
+            <div className="bg-orange-400 mx-auto w-fit overflow-hidden ">
               <img src={collage} />
             </div>
           </div>
         </div>
-      </div>
-      <div className="hidden text-9xl varien absolute top-6 left-1/4 text-g/10 z-40    ">
-        About Us
-      </div>
-      <div className=" absolute -bottom-24 left-10 z-0  opacity-10 ">
-      </div>
-      <div className=" absolute -bottom-0 left-3/4 z-0  opacity-10 ">
-      </div>
-      <div className=" absolute top-10 left-3/4 z-0  opacity-10 ">
-      </div>  
+      </div> 
     </div>
+    <div className="mt-[-70px]"><InfoCard /></div>
+    
+    
+    </>
   );
 }
 
