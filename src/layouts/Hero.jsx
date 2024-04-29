@@ -22,7 +22,7 @@ const Hero = () => {
                 </span>
               </h2>
               <p className="text-base text-center text-gray-700">
-              Training and Coaching Company
+              <b>GOVOKASi</b> adalah jembatan penghubung antara talenta terbaik yang siap bekerja dengan hiring partner yang membutuhkan SDM terbaik.
               </p>
               <div className="mt-10 flex flex-col items-center md:flex-row">
                 <a

@@ -11,6 +11,7 @@ import BlogSection from "./layouts/BlogSection.jsx";
 import CertificateSection from "./layouts/CertificationSection.jsx";
 import DeptCard from "./components/DeptCard.jsx";
 import DeptSection from "./layouts/DeptSection.jsx";
+import ValuesSection from "./layouts/ValuesSection.jsx";
 
 function App() {
   useEffect(() => {
