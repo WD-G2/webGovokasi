@@ -7,6 +7,8 @@ import ServiceCard from "./layouts/ServiceCard.jsx";
 import BlogCard from "./components/BlogCard.jsx";
 import { useState, useEffect } from "react";
 import BlogSection from "./layouts/BlogSection.jsx";
+import DeptCard from "./components/DeptCard.jsx";
+import DeptSection from "./layouts/DeptSection.jsx";
 
 function App() {
   useEffect(() => {
@@ -17,6 +19,7 @@ function App() {
       <Navbar />
       <Hero />
       <ServiceCard />
+      <DeptSection />
       <BlogSection />
       <Footer />
     </BrowserRouter>
