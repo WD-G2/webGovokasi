@@ -7,6 +7,7 @@ import ServiceCard from "./layouts/ServiceCard.jsx";
 import BlogCard from "./components/BlogCard.jsx";
 import { useState, useEffect } from "react";
 import BlogSection from "./layouts/BlogSection.jsx";
+import CertificateSection from "./layouts/CertificationSection.jsx";
 
 function App() {
   useEffect(() => {
@@ -17,6 +18,7 @@ function App() {
       <Navbar />
       <Hero />
       <ServiceCard />
+      <CertificateSection />
       <BlogSection />
       <Footer />
     </BrowserRouter>
