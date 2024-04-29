@@ -12,7 +12,7 @@ const ServiceCard = () => {
             onClick={() => setService("Talent")}
             className={`${
               service === "Talent"
-                ? "bg-[#1a1d40] text-white"
+                ? "bg-[#1a1d40] text-white border-[#1a1d40] border"
                 : "bg-white text-[#1a1d40] border-[#1a1d40] border"
             } ml-[15.5rem] p-2 rounded-r-none rounded-md w-full`}
           >
@@ -22,7 +22,7 @@ const ServiceCard = () => {
             onClick={() => setService("Partner")}
             className={`${
               service === "Partner"
-                ? "bg-[#1a1d40] text-white"
+                ? "bg-[#1a1d40] text-white border-[#1a1d40] border"
                 : "bg-white text-[#1a1d40] border-[#1a1d40] border"
             } p-2 rounded-md rounded-l-none w-full mr-[15.5rem]`}
           >
@@ -58,6 +58,11 @@ const ServiceCard = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="flex items-center justify-center">
+        <button className="bg-[#e9bc3a] text-black p-2 rounded-md mt-4">
+          Register Now
+        </button>
       </div>
     </>
   );
