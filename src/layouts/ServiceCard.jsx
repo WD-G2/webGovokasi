@@ -26,7 +26,7 @@ const ServiceCard = () => {
                 : "bg-white text-[#1a1d40] border-[#1a1d40] border"
             } p-2 rounded-md rounded-l-none w-full mr-[15.5rem]`}
           >
-            Partner
+            Hiring Partner
           </button>
         </div>
         <div className="mx-auto h-[700px]">
@@ -41,7 +41,7 @@ const ServiceCard = () => {
               </div>
               <div className="p-6">
                 <h6 className="mb-4 block font-sans text-base font-semibold uppercase leading-relaxed tracking-normal text-gray-300 antialiased">
-                  {service === "Talent" ? "Talent" : "Partner"}
+                  {service === "Talent" ? "Talent" : "Hiring Partner"}
                 </h6>
                 <h4 className="mb-2 block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
                   {service === "Talent"

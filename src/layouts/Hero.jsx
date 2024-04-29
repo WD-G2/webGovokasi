@@ -27,15 +27,15 @@ const Hero = () => {
               <div className="mt-10 flex flex-col items-center md:flex-row">
                 <a
                   href="/"
-                  className="mb-3 inline-flex h-12 w-full items-center justify-center rounded bg-[#1a1d40] px-6 font-medium tracking-wide text-white shadow-md transition hover:bg-white hover:text-[#1a1d40] focus:outline-none md:mr-4 md:mb-0 md:w-auto"
+                  className="mb-3 inline-flex h-12 w-full items-center justify-center rounded bg-[#1a1d40] px-6 font-medium tracking-wide text-white shadow-md transition hover:bg-black hover:text-white focus:outline-none md:mr-4 md:mb-0 md:w-auto"
                 >
                   Be our Talent
                 </a>
                 <a
                   href="/"
-                  className="mb-3 inline-flex h-12 w-full items-center justify-center rounded px-6 font-medium tracking-wide text-[#1a1d40] shadow-md transition hover:bg-[#1a1d40] hover:text-white focus:outline-none md:mr-4 md:mb-0 md:w-auto"
+                  className="mb-3 inline-flex h-12 w-full items-center justify-center rounded px-6 font-medium tracking-wide text-[#1a1d40] shadow-md transition hover:bg-[#666880] hover:text-black focus:outline-none md:mr-4 md:mb-0 md:w-auto"
                 >
-                  Be our Partner
+                  Be our Hiring Partner
                 </a>
               </div>
             </div>
