@@ -15,7 +15,7 @@ function DeptCard({ dept }) {
         />
       </div>
       <div class="absolute bg-gradient-to-b from-transparent to-black/100 w-full h-full px-1 py-2 top-0 left-0 flex  items-start justify-end flex-col group-hover:opacity-100 group-hover:visible opacity-0 invisible duration-200 overflow-y-hidden scrollbar-none text-white">
-        <h5 class="translate-y-28 group-hover:translate-y-0 duration-200 tracking-wide text-sm px-2 text-gray-200">
+        <h5 class="translate-y-28 group-hover:translate-y-0 duration-200 tracking-wide text-xl px-2 text-gray-200">
           {dept.title}
         </h5>
       </div>
