@@ -59,6 +59,11 @@ const ServiceCard = () => {
           </div>
         </div>
       </div>
+      <div className="flex items-center justify-center">
+        <button className="bg-[#e9bc3a] text-black p-2 rounded-md mt-4">
+          Register Now
+        </button>
+      </div>
     </>
   );
 };
