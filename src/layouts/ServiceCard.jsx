@@ -49,9 +49,8 @@ const ServiceCard = () => {
                     : "Partner Program"}
                 </h4>
                 <p className="mb-8 block font-sans text-base font-normal leading-relaxed text-white antialiased">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Esse, quidem? Cum exercitationem excepturi id quos ea
-                  voluptate impedit vero tenetur.
+                  {service === "Talent" ? `Kriteria Talent yang dapat bergabung dengan kami adalah mereka yang sedang mencari tempat untuk magang, switch career, dan fresh graduate untuk mencapai karir impian.
+Perjalanan talent akan dimulai dengan :` : "GOVOKASi menyalurkan talenta terbaik yang siap ditempatkan kerja maupun magang untuk semua hiring partner yang ingin bekerja sama dengan kami baik dalam skal Corporate, Startup, maupun Agency."}
                 </p>
                 {service === "Talent" ? <Journey /> : null}
               </div>

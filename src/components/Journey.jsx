@@ -10,7 +10,7 @@ function Journey(params) {
               <div className="flex justify-start w-full mx-auto items-center">
                 <div className="w-full sm:w-1/2 sm:pr-8">
                   <div className="p-4 bg-white rounded shadow">
-                    Now this is a story all about how,
+                    1. Submit berkas
                   </div>
                 </div>
               </div>
@@ -32,7 +32,7 @@ function Journey(params) {
               <div className="flex justify-end w-full mx-auto items-center">
                 <div className="w-full sm:w-1/2 sm:pl-8">
                   <div className="p-4 bg-white rounded shadow">
-                    My life got flipped turned upside down,
+                    2. Menyelesaikan PBI (Project Based Internship)
                   </div>
                 </div>
               </div>
@@ -54,7 +54,7 @@ function Journey(params) {
               <div className="flex justify-start w-full mx-auto items-center">
                 <div className="w-full sm:w-1/2 sm:pr-8">
                   <div className="p-4 bg-white rounded shadow">
-                    And I'd like to take a minute, just sit right there,
+                    3. Penempatan internship di hiring partner
                   </div>
                 </div>
               </div>
