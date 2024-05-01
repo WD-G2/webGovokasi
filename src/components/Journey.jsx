@@ -1,4 +1,4 @@
-function Journey(params) {
+function Journey() {
   return (
     <div className="flex flex-col">
       <div className="sm:max-w-xl sm:mx-auto w-full px-2 sm:px-0">

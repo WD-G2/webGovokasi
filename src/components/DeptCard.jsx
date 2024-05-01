@@ -1,6 +1,6 @@
 function DeptCard({ dept }) {
   return (
-    <div class="max-h-[200px] border border-gray-600 rounded relative group overflow-hidden hover:border-brand duration-200 hover:animat e-pulse peer">
+    <div class="max-h-[200px] relative group overflow-hidden hover:border-brand duration-200 hover:animat e-pulse peer">
       <div class="">
         <img
           alt="Test Porject in database"
