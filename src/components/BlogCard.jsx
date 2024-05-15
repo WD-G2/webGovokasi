@@ -1,4 +1,5 @@
-const BlogCard = () => {
+/* eslint-disable react/prop-types */
+const BlogCard = ({ title, author, img_url, created_at}) => {
   return (
     <article className="bg-white  p-6 mb-6 shadow transition duration-300 group transform hover:-translate-y-2 hover:shadow-2xl cursor-pointer border">
       <a
@@ -17,13 +18,13 @@ const BlogCard = () => {
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
             viewBox="0 0 24 24"
-            stroke-width="1.5"
+            strokeWidth="1.5"
             stroke="currentColor"
             className="h-5 w-5 text-red-700"
           >
             <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
             />
           </svg>
@@ -36,7 +37,7 @@ const BlogCard = () => {
           target="_self"
           rel="noopener noreferrer"
         >
-          Read article
+          Read blog
           <svg
             className="ml-2 w-6 h-6"
             fill="none"
@@ -45,9 +46,9 @@ const BlogCard = () => {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
               d="M13 5l7 7-7 7M5 5l7 7-7 7"
             ></path>
           </svg>
@@ -58,14 +59,14 @@ const BlogCard = () => {
           <div className="pr-3">
             <img
               className="h-12 w-12 rounded-full object-cover"
-              src="https://images.pexels.com/photos/163097/twitter-social-media-communication-internet-network-163097.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-              alt=""
+              src={ img_url }
+              alt={ title }
             />
           </div>
           <div className="flex flex-1">
             <div className="">
-              <p className="text-sm font-semibold ">Morris Muthigani</p>
-              <p className="text-sm text-gray-500">Published on 19/03/2024</p>
+              <p className="text-sm font-semibold ">{ author }</p>
+              <p className="text-sm text-gray-500">Published on { created_at }</p>
             </div>
           </div>
         </div>
@@ -80,9 +81,9 @@ const BlogCard = () => {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="1"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="1"
                 d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
               ></path>
             </svg>
@@ -94,10 +95,9 @@ const BlogCard = () => {
           href="/blog/slug"
           className="block relative group-hover:text-[#1a1d40] transition-colors duration-200 "
         >
-          Instant Help at Your Fingertips
+          { title }
         </a>
       </h3>
-      <div></div>
     </article>
   );
 };
